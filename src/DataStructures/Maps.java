@@ -7,13 +7,13 @@ import java.util.Scanner;
 /**
  * Created by Hivison N Moura on 04/07/2017.
  */
-public class JavaMap {
+public class Maps {
 
     public static void main(String[] argh) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         in.nextLine();
-        Map<String, Integer> phoneBook = new HashMap<>();
+        java.util.Map<String, Integer> phoneBook = new HashMap<>();
         for (int i = 0; i < n; i++) {
             String name = in.nextLine();
             int phone = in.nextInt();
