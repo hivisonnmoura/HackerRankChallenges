@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Static {
     static int B, H;
     static boolean flag = true;
+
     static {
 
         Scanner sc = new Scanner(System.in);

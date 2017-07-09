@@ -6,11 +6,10 @@ import java.util.Scanner;
  * Created by Hivison N Moura on 29/06/2017.
  */
 public class ArrayList {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 /*
         Scanner scan = new Scanner(System.in);
-        ArrayList[] list= new ArrayList[20002];
+        ArrayList[] list = new ArrayList[20002];
         int n;
         n=scan.nextInt();
         for(int i=1;i<=n;i++)
@@ -40,6 +39,8 @@ public class ArrayList {
             {
                 System.out.println("ERROR!");
             }
-        }*/
+        }
+    }*/
+
     }
 }

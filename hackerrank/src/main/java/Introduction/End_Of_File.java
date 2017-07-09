@@ -10,7 +10,7 @@ public class End_Of_File {
 
         Scanner sc = new Scanner(System.in);
         int line_num = 0;
-        while(sc.hasNext())
+        while (sc.hasNext())
             System.out.println(++line_num + " " + sc.nextLine());
         sc.close();
 

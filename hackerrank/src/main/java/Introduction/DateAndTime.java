@@ -19,8 +19,8 @@ public class DateAndTime {
             DateFormat format2 = new SimpleDateFormat("EEEE");
             String final_day = format2.format(format1.parse(input_date));
             System.out.println(final_day.toUpperCase());
+        } catch (Exception e) {
         }
-        catch(Exception e){}
     }
-    }
+}
 
