@@ -8,3 +8,8 @@
 HackerRanck.iml
 out/
 .idea/*
+git rm --cached --force .idea/vcs.xml
+git rm --cached --force .gitignore
+hackerrank/build/
+hackerrank/src/main/resources/
+hackerrank/src/test/
